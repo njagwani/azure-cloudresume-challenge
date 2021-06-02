@@ -1,2 +1,2 @@
 # azure-cloudresume-challenge
-My own Azure resume
+My own azure resume
