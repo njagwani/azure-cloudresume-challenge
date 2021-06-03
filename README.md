@@ -3,14 +3,12 @@ My own azure resume
 
 Frontend folder contains the website
 
-Main.js contains visitor counter code
+Main.js contains visitor counter code, code pated below!
 
 window.addEventListener('DOMContentLoaded',(event) =>{
     getVisitCount();
 })
-
 const functionApi = '';
-
 const getVisitCount = () => {
     let count = 30;
     fetch(functionApi).then(response => {
