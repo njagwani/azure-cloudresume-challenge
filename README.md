@@ -15,7 +15,7 @@ Before starting this project, I created my own github repository for Azure Cloud
 - Azure Functions Core Tools - Required to develop Azure Functions locally on own machine.
 - Azure Cli - Azure Command line interface to manage Azure resources.
 ### Frontend 
-#### Resume Template
+#### Resume Template 🌍
 In order to get started, I first created my own Resume. Here, I decided to use a Resume template which is based on a beautiful resume NuxtJs code developed by [Ivan Greve](https://github.com/ivangreve/nuxt-resume) and 
 [StartBootstrap Theme](https://github.com/startbootstrap/startbootstrap-resume/)
 
@@ -50,7 +50,7 @@ The Next step was to create an Azure Function, connect Azure DB bindings to the 
 
 Azure Function is a Serverless solution that allows us to create pieces of code that are Event-driven and we don't have to worry about the infrastructure behind the pieces of code. Azure Functions also has this feature called bindings which allows us to connect other resources to our function.
 
-#### Azure Function in Visual Code
+#### Azure Function in Visual Code 🔧
 
 I signed in to my Azure Cloud Account under VS code and then created a new project under Azure Functions Extension by selecting the following:
 - Selected the api directory (under backend folder)
@@ -74,7 +74,7 @@ Later on, I was then able to get the code to work with Cosmos DB bindings by per
 
 Now that I had the function running locally & was able to view the counter data on the browser, the next step was to merge frontend with the backend. 
 
-#### Merge Frontend with Backend
+#### Merge Frontend with Backend 🚀
 
 I then navigated to main.js (located in the frontend folder) and updated the API URL with the functions local URL. 
 
