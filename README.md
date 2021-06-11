@@ -2,18 +2,19 @@
 
 Hello!!!🥳
 
-This is the repository of my first [A Cloud Guru Resume Challenge] (https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-in-azure) 
+This is the repository of my first [A Cloud Guru Resume Challenge](https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-in-azure) 
 
 In our use-case:
 
-![Diagram](img/Diagram.png)
+![Diagram](img/Diagram.png/png)
 
 I started off the project by building the frontend which will contain your Website. 
 
 At first, I created my own github repository for Azure Cloud Resume Challenge. 
 
 #Resume Template#
-In order to get started, I first had to create my own Resume. In order to create my Resume, I decide to use a Resume template which is based on n beautiful resume NuxtJs code developed by [Ivan Greve](https://github.com/ivangreve/nuxt-resume) and [StartBootstrap Theme](https://github.com/startbootstrap/startbootstrap-resume/.
+In order to get started, I first had to create my own Resume. In order to create my Resume, I decide to use a Resume template which is based on n beautiful resume NuxtJs code developed by [Ivan Greve](https://github.com/ivangreve/nuxt-resume) and 
+[StartBootstrap Theme](https://github.com/startbootstrap/startbootstrap-resume/)
 
 Commands used to build Resume template based on NuxtJs code:
 1. Install NodeJS (Pre-requisite)
