@@ -14,9 +14,8 @@ Before starting this project, I created my own github repository for Azure Cloud
 - C# Extension on Visual Studio Code
 - Azure Functions Core Tools - Required to develop Azure Functions locally on own machine.
 - Azure Cli - Azure Command line interface to manage Azure resources.
-
-#### Frontend 
-### Resume Template
+### Frontend 
+#### Resume Template
 In order to get started, I first had to create my own Resume. In order to create my Resume, I decide to use a Resume template which is based on n beautiful resume NuxtJs code developed by [Ivan Greve](https://github.com/ivangreve/nuxt-resume) and 
 [StartBootstrap Theme](https://github.com/startbootstrap/startbootstrap-resume/)
 
@@ -36,7 +35,7 @@ Frontend pretty much has all the contents from the ./dist folder & main.js (Crea
 Index.html contains the element for the counter <id="counter"> to display the counter info.
 
 Once my frontend was ready, I then started to build my backend.
-#### Backend 
+### Backend 
 
 To get started with Backend, we first need to create an Azure Cosmos DB account, database, container and data.
 
