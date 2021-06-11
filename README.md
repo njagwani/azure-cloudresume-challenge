@@ -6,7 +6,7 @@ This is the repository of my first [A Cloud Guru Resume Challenge](https://aclou
 
 In our use-case:
 
-![Diagram](img/Diagram.png/png)
+![Diagram](img/Diagram.png.png)
 
 I started off the project by building the frontend which will contain your Website. 
 
