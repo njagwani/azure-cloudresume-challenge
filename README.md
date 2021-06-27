@@ -49,7 +49,7 @@ The Items inside in my Database included the id and count. Since, we need counte
 
 The Next step was to create an Azure Function, connect Azure DB bindings to the function and then view the counter data via the function.
 
-![](images/Azure%20Resume%20Counter%%20-%20Cosmos%20DB.PNG)
+
 
 Azure Function is a Serverless solution that allows us to create pieces of code that are Event-driven and we don't have to worry about the infrastructure behind the pieces of code. Azure Functions also has this feature called bindings which allows us to connect other resources to our function.
 
