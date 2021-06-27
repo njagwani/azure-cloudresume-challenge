@@ -95,3 +95,7 @@ I then ran the function locally (func host start command) and then opened index.
 
 
 ![](images/ResumePageDisplayingtheCounterforPageViews.PNG)
+
+Cheers!
+
+Nitin Jagwani 
