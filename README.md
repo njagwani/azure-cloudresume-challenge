@@ -47,6 +47,8 @@ I then created my Database, Container and Items under "Data Explorer" of Azure C
 
 The Items inside in my Database included the id and count. Since, we need counter for 1 website, the id was set to 1 and count was set to 0 as we dont have any visitors. 
 
+![](images/AzureResumeCounter-Cosmos%20DB.PNG)
+
 The Next step was to create an Azure Function, connect Azure DB bindings to the function and then view the counter data via the function.
 
 
