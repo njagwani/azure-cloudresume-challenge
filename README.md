@@ -47,7 +47,7 @@ I then created my Database, Container and Items under "Data Explorer" of Azure C
 
 The Items inside in my Database included the id and count. Since, we need counter for 1 website, the id was set to 1 and count was set to 0 as we dont have any visitors. 
 
-![](images/AzureResumeCounter-Cosmos%20DB.PNG)
+![](images/AzureCounterIDCountonCosmosDB.PNG)
 
 The Next step was to create an Azure Function, connect Azure DB bindings to the function and then view the counter data via the function.
 
@@ -79,8 +79,19 @@ Later on, I was then able to get the code to work with Cosmos DB bindings by per
 
 Now that I had the function running locally & was able to view the counter data on the browser, the next step was to merge frontend with the backend. 
 
+![](images/LocalURLdisplayingthecount.PNG)
+
 #### Merge Frontend with Backend 🚀
 
 I then navigated to main.js (located in the frontend folder) and updated the API URL with the functions local URL. 
 
 I then ran the function locally (func host start command) and then opened index.html file (located in the frontend folder) to make sure that I was able to view the counter data. I was able to view the counter data successfully and was able to test the same on AZ Cosmos DB account where the count also changed. 
+
+![](images/IntegrateCounterFunctionrunningthecounterfunctiongenerateslocalURL.PNG)
+
+
+
+![](images/CountmatchingoncosmosDBsameasLocalURL.PNG)
+
+
+![](images/ResumePageDisplayingtheCounterforPageViews.PNG)
