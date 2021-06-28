@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: azure/login@v1
+    - uses: azure/login@nitin
       with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
