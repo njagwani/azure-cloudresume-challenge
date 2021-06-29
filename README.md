@@ -1,5 +1,5 @@
 
-# Azure-CloudResume-Challenge | Local Deployment using Azure Functions to display the Counter number in the form of page views (Frontend - HTML | Backend - Azure Cosmos DB)
+# Azure-CloudResume-Challenge
 
 Hello!!!🥳
 
