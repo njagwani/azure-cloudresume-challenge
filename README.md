@@ -5,7 +5,9 @@ Hello!!!🥳
 
 This is the repository of my first [A Cloud Guru Resume Challenge](https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-in-azure) 
 
-I started off the project by building the frontend which contains the Website. 
+Here is the finished product [My Azure Resume](https://www.nitinjagwani.me)
+
+I started off the project by building the frontend which contains the Website 
 
 Before starting this project, I created my own github repository for Azure Cloud Resume Challenge. 
 ### Pre-requisites for this project
@@ -95,6 +97,24 @@ I then ran the function locally (func host start command) and then opened index.
 
 
 ![](images/ResumePageDisplayingtheCounterforPageViews.PNG)
+
+#### Deploying Azure Function 🥇
+This was the most challenging part of my project because I was unable to get the donet version '.NET core 3.1' to reflect on my visual studio code when I deploy the Azure function using Azure Functions extension. [DOTNETCORE3.1](https://dotnet.microsoft.com/download/dotnet/3.1) and [Microsoft.Azure.WebJobs](https://www.nuget.org/packages/Microsoft.Azure.WebJobs/) came to my rescue. I then added a new application setting (copied the AzureResume Connection String) under GetResumeCounter Function on Miscrosoft Azure Portal so that function can be deployed in Production. I then fetched the Azure Function URL using the option "Get Function URL" and used that URL to update the java script code (main.js located in the frontend). In order for the counter function to display the counter value, I enabled CORS (Located under Function App - GetResumeCounterNitin). 
+#### Deploying Static Webiste to Storage Account & Migrate custom domain to Azure CDN 🏹
+The next step was to deploy Static Website via Azure Storage. This was the easiest part of this project. Just be sure to add the URL of static website under CORS. The next step was to configure a custom domain and SSL certificates with the help of Azure CDN. Under my storage accoount, I was abloe to migrate my custom domain to Azure CDN by creating a new CDN profile. 
+
+#### Build CI/CD pipeline 💉
+I then created a Github workflow which is responsible for deploying the frontend of my project. I used this [Article](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-static-site-github-actions) to Set up a GitHub Actions workflow to deploy your static website in Azure Storage.
+
+
+
+Few Important Resources:
+
+ - [Azure Functions HTTP trigger](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook-trigger?tabs=csharp)
+
+- [How To Use the JavaScript Fetch API to Get Data](https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-fetch-api-to-get-data)
+- [Create a C# function in Azure using Visual Studio Code](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-csharp)
+- [Manage your Function App](https://docs.microsoft.com/en-us/azure/azure-functions/functions-how-to-use-azure-function-app-settings?tabs=portal#cors)
 
 Cheers!
 
