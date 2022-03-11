@@ -1,4 +1,4 @@
-name: Delpoy_frontend
+name: deploy_frontend
 # Deploys when push is made from the frontend folder
 on:
     push:
@@ -20,7 +20,7 @@ jobs:
       with:
         azcliversion: 2.0.73
         inlineScript: |
-            az storage blob upload-batch --account-name azureresumefrontendnitin -d '$web' -s frontend/
+            az storage blob upload-batch --account-name azureresumefrontendnitin -d '$web' -s frontend/ --subscription de41d8ff-3b76-4c9b-aba9-0ba4d1f8ca0c
     - name: Purge CDN endpoint
       uses: azure/CLI@v1
       with:
